@@ -26,14 +26,30 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
-
-
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+<img width="495" height="206" alt="image" src="https://github.com/user-attachments/assets/31c6edb0-12c7-4ae4-83c6-0b43f4bcc48a" />
 
 
 
