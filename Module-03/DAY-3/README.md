@@ -23,13 +23,29 @@ To Create a java program use replace() method replaces the given String from the
  ```
 /*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Ramya S
+RegisterNumber: 212222040130 
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class StringBuilderAppend {
+
+public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    String input = scanner.nextLine();
+    scanner.close();
+
+    StringBuilder sb1 = new StringBuilder(input); // Initialize with input
+    sb1.append("s");
+
+    System.out.println("sb1 = " + sb1.toString());
+}
+}
+```
 
 
 
@@ -38,6 +54,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="499" height="158" alt="image" src="https://github.com/user-attachments/assets/a03ac088-4303-4059-81b5-99faebc3ac80" />
 
 
 ## RESULT:
